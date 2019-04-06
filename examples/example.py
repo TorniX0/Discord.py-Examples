@@ -3,6 +3,7 @@ import discord #importing the library
 from discord.ext import commands #importing ext.commands
 
 bot = commands.Bot(command_prefix='?') #defining bot, which is better than discord.Client(). (basically has everything that Client has.)
+#also you can use "command_prefix=when_mentioned_or('?')" if you want the bot to respond to you mentioning it, and to the prefix "?".
 
 @bot.event #a event
 async def on_ready():
