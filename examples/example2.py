@@ -25,4 +25,4 @@ async def embed(ctx):
 async def mention(ctx):
     await ctx.send(f"{ctx.author.mention}, you have been pinged!") #ctx.author is basically short for ctx.message.author same for: ctx.guild, ctx.send, etc..
 
-bot.run("token") #insert token here
+bot.run("token")
