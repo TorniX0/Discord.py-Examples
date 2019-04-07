@@ -9,7 +9,7 @@ async def on_ready():
     print('OK >> BOT IS READY!')
     print(discord.__version__)
 
-@client.command()
+@bot.command()
 async def embed(ctx):
     embed = discord.Embed(colour=discord.Colour.yellow()) #this is the definition of the embed
     embed.set_author(name="Hello, this is the author.") #this is the author
@@ -21,7 +21,7 @@ async def embed(ctx):
     embed.set_footer(text='This is a footer.') #this is the footer
     await ctx.send(embed=embed) #here we are sending it to the channel
 
-@client.command()
+@bot.command()
 async def mention(ctx):
     await ctx.send(f"{ctx.author.mention}, you have been pinged!") #ctx.author is basically short for ctx.message.author same for: ctx.guild, ctx.send, etc..
 
