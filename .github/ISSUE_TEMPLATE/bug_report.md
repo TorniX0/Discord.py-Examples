@@ -1,10 +1,16 @@
-**Describe the bug**
+**Describe the bug**:
+
+
 A clear and concise description of what the bug is.
 
-**Expected behavior**
+**Expected behavior**:
+
+
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshots**:
+
+
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
@@ -12,5 +18,7 @@ If applicable, add screenshots to help explain your problem.
  - discord.py version:
  - Python Version:
 
-**Additional context**
+**Additional context**:
+
+
 Add any other context about the problem here.
