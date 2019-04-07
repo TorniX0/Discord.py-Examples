@@ -1,4 +1,4 @@
-import discord
+import discord, time
 
 from discord.ext import commands
 from discord.ext.commands.cooldowns import BucketType #importing the cooldown for the next cooldown command
@@ -27,5 +27,13 @@ async def cooldown(ctx):
 @bot.command()
 async def ping(ctx):
     await ctx.send("Pong! Ping: **`{round(bot.latency * 1000)}ms`**.") #sends the bot.latency
+    #-------------------------- down here is the api latency -----------------
+    #you can use it if you want but it's not necesarry.
+    #
+    #start = time.perf_counter()
+    #message = await ctx.send('Ping...')
+    #end = time.perf_counter()
+    #duration = (end - start) * 1000
+    #await message.edit(content='Pong! {:.2f}ms'.format(duration))
 
 bot.run("token")
