@@ -12,7 +12,7 @@ async def on_ready():
 @bot.command()
 async def embed(ctx):
     #note: you can't mention in titles, author and footer. 
-    embed = discord.Embed(colour=discord.Colour.yellow()) #this is the definition of the embed
+    embed = discord.Embed(colour=discord.Colour.yellow()) #this is the definition of the embed, also you can use color=0x000000 with hex codes.
     embed.set_author(name="Hello, this is the author.") #this is the author
     embed.add_field(name='Hey there!', value='This is a field', inline=True) #this is a field
     embed.add_field(name='Howdy!', value='This is a field with inline=true', inline=True) #this is a inline=True field
