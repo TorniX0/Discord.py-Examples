@@ -9,12 +9,12 @@ async def on_ready():
     print('OK >> BOT IS READY!')
     print(discord.__version__)
 
-@client.command()
+@bot.command()
 async def dm_me(ctx):
     await ctx.author.send("I've just dm'd you!") #sends a dm
     await ctx.message.delete() #deletes the sent message by the user
 
-@client.command(aliases=['permc', 'pc']) #aliases
+@bot.command(aliases=['permc', 'pc']) #aliases
 async def permissions_check(ctx):
     if ctx.author.guild_permissions.administrator: #check if user has administrator
         await ctx.send('You are allowed to proceed.')
