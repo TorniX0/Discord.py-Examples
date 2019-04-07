@@ -3,7 +3,7 @@
 Hey, you arrived here looking for some discord.py rewrite examples to start off.
 
 
-You firstly gotta install discord.py rewrite. to do so, run a command prompt and type this: **pip install -U git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]**. And make sure you have git installed, **https://git-scm.com/downloads**.
+You firstly gotta install discord.py rewrite. to do so, run a command prompt and type this: ```pip install -U git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]**```. And make sure you have git installed, **https://git-scm.com/downloads.
 
 
 Andddd you gotta know some python...
