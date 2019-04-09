@@ -17,5 +17,6 @@ class example_cog(commands.Cog): #it must inherit from commands.Cog
     async def does_the_cog_work(self, ctx): #first 2 arguments must be self and ctx
         await ctx.send('The cog works! Everything works correctly and fine.')
 
+#this is technically part of extensions
 def setup(bot):
     bot.add_cog(example_cog(bot))
