@@ -2,7 +2,7 @@ import discord
 
 from discord.ext import commands
 
-class example_cog(commands.Cog): #it must inherit from commands.Cog
+class example_cog(commands.Cog): #cogs must subclass commands.Cog
     def __init__(self, bot):
         self.bot = bot #so you're gonna use self.bot in cogs if you have it like this.
 
