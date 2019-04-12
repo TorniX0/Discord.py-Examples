@@ -1,4 +1,4 @@
-import discord, time, traceback
+import discord
 
 from discord.ext import commands
 
