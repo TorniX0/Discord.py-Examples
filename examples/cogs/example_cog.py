@@ -10,6 +10,7 @@ class example_cog(commands.Cog): #cogs must subclass commands.Cog
     @commands.Cog.listener()
     async def on_message(self, message):
         if "cookie" in message.content.lower():
+            await message.add_reaction('😢')
             await message.channel.send('But I want to keep them :(.. :cookie: :cookie: :cookie: :cookie: :cookie:')
         await self.bot.process_commands(message)
         
