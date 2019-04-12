@@ -10,7 +10,7 @@ async def on_ready():
     print('OK >> BOT IS READY!') #prints this when the bot is ready to-be-used.
     print(discord.__version__) #prints out the discord.py version that you have currently installed
 
-@bot.command()
+@bot.command() #decorator
 async def cookie(ctx): #the definition of the command
     await ctx.message.add_reaction('🍪')  #adding a reaction to the users message
     await ctx.send('You got it!') #sending a message in the channel he ran this command
