@@ -15,7 +15,7 @@ if __name__ == "__main__":
             bot.load_extension("cogs." + extension)
         except Exception as e:
             print(f'Failed to load extension {extension}.')
-            traceback.print_exc() #here we are loading all the cogs that are in a folder named "cogs" and have .py at the end of the file.
+            traceback.print_exc()   # here we are loading all the cogs that are in a folder named "cogs" and have .py at the end of the file.
             #pro tip: use cogs.
 
 bot.run("token")
