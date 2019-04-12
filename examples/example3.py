@@ -15,10 +15,8 @@ async def dm_me(ctx):
     await ctx.message.delete()   # deletes the sent message by the user
 
 @bot.command(aliases=['permc', 'pc'])   # aliases
+@bot.has_permissions(administrator=True)
 async def permissions_check(ctx):
-    if ctx.author.guild_permissions.administrator:   # check if user has administrator
-        await ctx.send('You are allowed to proceed.')
-    else:
-        await ctx.send('You are denied to proceed.')
+    await ctx.send('You are allowed to proceed.')
 
 bot.run("token")
