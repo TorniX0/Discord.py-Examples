@@ -1,4 +1,4 @@
-import discord
+import discord, traceback
 
 from discord.ext import commands
 
