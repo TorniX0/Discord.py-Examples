@@ -16,7 +16,7 @@ async def cookie(ctx):   # the definition of the command
     await ctx.send('You got it!')   # sending a message in the channel he ran this command
 
 @bot.command()
-async def say(ctx, *, text : str):   # basically a say command. text is a arg
+async def say(ctx, *, text : commands.clean_content):   # basically a say command. text is a arg
     await ctx.send(text)   # telling the user what he just passed us
 
 bot.run("token")   # insert token here
