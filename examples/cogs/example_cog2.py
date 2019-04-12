@@ -3,7 +3,7 @@ import asyncio   # you could always use from asyncio import sleep :)
 
 from discord.ext import commands
 
-class example_cog2(commands.Cog):
+class example_cog2:
     def __init__(self, bot):
         self.bot = bot
         
