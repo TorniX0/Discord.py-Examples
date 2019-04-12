@@ -11,7 +11,7 @@ class example_cog(commands.Cog):   # cogs must subclass commands.Cog
     async def on_message(self, message):
         if "cookie" in message.content.lower():
             await message.add_reaction('😢')
-            await message.channel.send('But I want to keep them :(.. :cookie: :cookie: :cookie: :cookie: :cookie:')
+            await message.channel.send('But I want to keep them :(.. 🍪 🍪 🍪 🍪 🍪')
         
     @commands.command(aliases=['dtcw'])
     async def does_the_cog_work(self, ctx):   # first 2 arguments must be self and ctx
