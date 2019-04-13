@@ -15,6 +15,7 @@ class example_cog(commands.Cog):
         
     @commands.command(aliases=['dtcw'])
     async def does_the_cog_work(self, ctx):   # first 2 arguments must be self and ctx
+        """Literally sends a message if the cog works."""
         await ctx.send('The cog works! Everything works correctly and fine.')
 
 #this is technically part of extensions
