@@ -2,7 +2,7 @@ import discord
 
 from discord.ext import commands
 
-class example_cog:
+class example_cog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot   # so you're gonna use self.bot in cogs if you have it like this.
 
