@@ -22,10 +22,12 @@ async def on_member_join(member):   # a on_member_join event
 @bot.command()
 @bot.cooldown(5, 5, commands.BucketType.user)   # basically like (rate,per,BucketType). and it raises commands.CommandOnCooldown.
 async def cooldown(ctx):
+    """A cooldown command example."""
     await ctx.author.send("Hey! If you spam this command 5 times, you'll get ratelimited for 5 seconds!")
 
 @bot.command()
 async def ping(ctx):
+    """Gives the bot's latency."""
     await ctx.send("Pong! Ping: **`{round(bot.latency * 1000)}ms`**.")   # sends the bot.latency
     #-------------------------- down here is the api latency -----------------
     #you can use it if you want but it's not necesarry.
