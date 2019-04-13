@@ -9,6 +9,7 @@ class example_cog2(commands.Cog):
         
     @commands.command(aliases=['cd', 'ctd'])
     async def countdown(self, ctx):
+        """Countdown!"""
         for a in range(-5, 0):
             await ctx.send(f"{abs(a)}...")
             await asyncio.sleep(1)
