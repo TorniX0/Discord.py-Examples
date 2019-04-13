@@ -11,6 +11,7 @@ async def on_ready():
 
 @bot.command()
 async def embed(ctx):
+    """Returns a embed in the chat."""
     #note: you can't mention in titles, author and footer. 
     embed = discord.Embed(colour=discord.Colour.yellow())   # this is the definition of the embed, also you can use color=0x000000 with hex codes.
     embed.set_author(name="Hello, this is the author.")   # this is the author
@@ -24,6 +25,7 @@ async def embed(ctx):
 
 @bot.command()
 async def mention(ctx):
-    await ctx.send(f"{ctx.author.mention}, you have been pinged!")   # ctx.author is basically short for ctx.message.author same for: ctx.guild, ctx.send, etc..
+    """Mentions you."""
+    await ctx.send(f"{ctx.author.mention}, you have been mentioned!")   # ctx.author is basically short for ctx.message.author same for: ctx.guild, ctx.send, etc..
 
 bot.run("token")
