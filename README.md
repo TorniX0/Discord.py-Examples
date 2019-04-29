@@ -1,9 +1,9 @@
 # Discord.py-Rewrite-Examples
 
-Hey, you arrived here looking for some discord.py rewrite examples to start off.
+Hey, you arrived here looking for some discord.py examples to start off.
 
 
-You firstly gotta install discord.py rewrite. to do so, run a command prompt and type this: ```pip install -U discord.py```.
+You firstly gotta install discord.py. to do so, run a command prompt and type this: ```pip install -U discord.py```.
 
 
 Andddd you gotta know some python...
