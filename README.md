@@ -1,4 +1,4 @@
-# Discord.py-Rewrite-Examples
+# Discord.py-Examples
 
 Hey, you arrived here looking for some discord.py examples to start off.
 
