@@ -12,7 +12,7 @@ Andddd you gotta know some python...
 Check out this documentation website for python: **https://docs.python.org/3/**.
 
 
-And if you don't know something, look here for the discord.py rewrite documentation: **https://discordpy.readthedocs.io/en/rewrite/**.
+And if you don't know something, look here for the discord.py rewrite documentation: **https://discordpy.readthedocs.io/en/latest/**.
 
 
 Also, make sure to **NOT** exceed theese ratelimits:
